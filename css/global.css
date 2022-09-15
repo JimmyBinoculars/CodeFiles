@@ -1,0 +1,28 @@
+body {
+    font-family: 'Nanum Gothic Coding', monospace;
+    background-color: black;
+    color: chartreuse;
+    outline-style: solid;
+    outline-width: 12px;
+    outline-color: rgba(128, 255, 0, 0.418);
+}
+h1 {
+    font-size: 56px;
+}
+h2 {
+    font-family: 'Nanum Gothic Coding', monospace;
+    color: chartreuse;
+}
+
+button {
+    background-color: black;
+    color: chartreuse;
+    outline-style: solid;
+    outline-width: 4px;
+    outline-color: rgba(128, 255, 0, 0.397);
+    margin: 1%;
+}
+
+#title {
+    margin-left: 10px;
+}

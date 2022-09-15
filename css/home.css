@@ -1,0 +1,107 @@
+body {
+    font-family: 'Nanum Gothic Coding', monospace;
+    background-color: black;
+    color: chartreuse;
+}
+h1 {
+    font-size:2vw;
+}
+
+@media screen and (min-width: 851px) {
+    #title {
+      font-size: 40px;
+    }
+  }
+  
+  @media screen and (max-width: 850px) {
+    #title {
+      font-size: 20px;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    #title {
+        font-size: 10px;
+    }
+  }
+
+h2 {
+    font-family: 'Nanum Gothic Coding', monospace;
+    color: chartreuse;
+}
+
+h3 {
+    font-size: medium;
+}
+
+p {
+    color: chartreuse;
+}
+
+.bar-img {
+    max-width: 100%;
+    height: auto;
+}
+
+button {
+    background-color: black;
+    color: chartreuse;
+    outline-style: solid;
+    outline-width: 4px;
+    outline-color: rgba(128, 255, 0, 0.397);
+    margin: 1%;
+}
+
+#title {
+    text-decoration: none;
+}
+
+.column {
+    outline-style: solid;
+    outline-width: 12px;
+    outline-color: rgba(128, 255, 0, 0.418);
+    width: 150px;
+    height: 885px;
+}
+
+.click {
+    text-decoration: none;
+}
+
+.click-anchor {
+    text-decoration: none;
+}
+
+.inside {
+    align-content: center;
+    text-align: center;
+}
+
+.column {
+    float: left;
+    width: 13%;
+    padding: 10px;
+  }
+  .column2 {
+    float: left;
+    width: 70%;
+    padding: 10px;
+    padding-left: 30px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+.blog {
+    outline-style: solid;
+    outline-width: 4px;
+    outline-color: rgba(128, 255, 0, 0.397);
+}
+#view {
+    float: right;
+    padding-right: 20px;
+    text-decoration: none;
+    color: chartreuse;
+}
