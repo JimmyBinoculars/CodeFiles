@@ -98,6 +98,7 @@ button {
     float: left;
     width: 13%;
     padding: 10px;
+    position: absolute;
   }
   .column2 {
     float: left;
@@ -117,9 +118,19 @@ button {
     outline-width: 4px;
     outline-color: rgba(128, 255, 0, 0.397);
 }
-#view {
+.blogs {
+    padding-left: 300px;
+}
+.view {
     float: right;
     padding-right: 20px;
     text-decoration: none;
     color: chartreuse;
+}
+.arrow div{
+    padding-left: 5px;
+}
+a:hover {
+    word-spacing: 5px;
+    transition: all 250ms ease-out;
 }
