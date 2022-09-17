@@ -17,6 +17,16 @@ h1 {
     h2 {
         font-size: 25px;
     }
+    .blogs {
+        padding-left: 300px;
+    }
+    .column {
+        max-height: 885px;
+        outline-style: solid;
+        outline-width: 12px;
+        outline-color: rgba(128, 255, 0, 0.418);
+        width: 150px;    
+    }
   }
   
   @media screen and (max-width: 850px) {
@@ -29,6 +39,16 @@ h1 {
     h2 {
         font-size: 25px;
     }
+    .blogs {
+        padding-left: 200px;
+    }
+    .column {
+        max-height: 1080px;
+        outline-style: solid;
+        outline-width: 12px;
+        outline-color: rgba(128, 255, 0, 0.418);
+        width: 150px;    
+    }
   }
   @media screen and (max-width: 600px) {
     #title {
@@ -39,6 +59,16 @@ h1 {
     }
     h2 {
         font-size: 17px;
+    }
+    .blogs {
+        padding-left: 100px;
+    }
+    .column {
+        max-height: 812px;
+        outline-style: solid;
+        outline-width: 12px;
+        outline-color: rgba(128, 255, 0, 0.418);
+        width: 150px;    
     }
   }
 
@@ -118,8 +148,8 @@ button {
     outline-width: 4px;
     outline-color: rgba(128, 255, 0, 0.397);
 }
-.blogs {
-    padding-left: 300px;
+.blogbody {
+    padding-left: 270px;
 }
 .view {
     float: right;
