@@ -15,44 +15,19 @@
 
     <h1>CodeFiles</h1>
     
-    <button onclick="typeWriter()">Connect</button>
     
-    <p id="L1"></p>
-    
-    <script>
-    var i = 0;
-    var txt = 'Connecting to 134.41.149.77 via HTTPS  . . . ';
-    var speed = 50;
-    
-    function typeWriter() {
-      if (i < txt.length) {
-        document.getElementById("L1").innerHTML += txt.charAt(i);
-        i++;
-        setTimeout(typeWriter, speed);
-      }
-    }
-    
-    </script>
-    
-    <p id="L2"></p>
 
-    <script>
-      var i2 = 0;
-      var txt2 = 'Connected ! ';
-      var speed = 50;
-      setTimeout(() => {  done(); }, 7000);
-      setTimeout(() => {  red(); }, 9000);
-      function done() {
-        if (i2 < txt2.length) {
-          document.getElementById("L2").innerHTML += txt2.charAt(i2);
-          i2++;
-          setTimeout(done, speed);
-        }
-        
-      }
-      function red() {
-        window.location.href = "./Home/index.html";
-      }
-      </script>
-      
+
+
+    <div class="css-typing">
+      <p>
+        Connecting to 151.91.93.37 ...
+      </p>
+      <p>
+        Log-on/off acknowledge 
+      </p>
+      <p>
+        Connected !
+      </p>
+    </div>    
 </body>
