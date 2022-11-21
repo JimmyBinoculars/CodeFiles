@@ -17,7 +17,7 @@ h1 {
     h2 {
         font-size: 25px;
     }
-    .blogs {
+    .column2 {
         padding-left: 300px;
     }
     .column {
@@ -39,7 +39,7 @@ h1 {
     h2 {
         font-size: 25px;
     }
-    .blogs {
+    .column2 {
         padding-left: 200px;
     }
     .column {
@@ -60,8 +60,8 @@ h1 {
     h2 {
         font-size: 17px;
     }
-    .blogs {
-        padding-left: 100px;
+    .column2 {
+        padding-left: 200px;
     }
     .column {
         max-height: 812px;
@@ -134,7 +134,7 @@ button {
     float: left;
     width: 70%;
     padding: 10px;
-    padding-left: 30px;
+    padding-left: 270px
   }
   
   /* Clear floats after the columns */
