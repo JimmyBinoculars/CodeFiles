@@ -21,8 +21,8 @@ body{
 .column2 {
 	float: left;
 	padding: 5px;
+	padding-right: 30px;
 	margin-left: 195px;
-	padding-top: 40px;
 	position: absolute;
 	outline-style: solid;
     outline-width: 12px;
@@ -36,10 +36,12 @@ a {
 	outline-style: solid;
 	outline-width: 12px;
 	outline-color: rgba(128, 255, 0, 0.418);
+	padding-right: 1130px;
+	padding-left: 30px;
 }
 .tag {
 	border-style: solid;
 	border-color: chartreuse;
-	width: 10px;
+	padding-right: 5px;
 	font-size: 12px;
 }
