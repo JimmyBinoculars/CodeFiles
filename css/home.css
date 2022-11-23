@@ -7,15 +7,14 @@ body{
 	float: left;
 	width: 13%;
 	padding: 5px;
-	position: absolute;
+	position: fixed;
 	outline-style: solid;
-    outline-width: 12px;
-    outline-color: rgba(128, 255, 0, 0.418);
-    width: 150px;
+	outline-width: 12px;
+	outline-color: rgba(128, 255, 0, 0.418);
+	width: 150px;
 	padding-bottom: 590px;
 }
 .menu {
-	padding-left: 4px;
 	text-align: center;
 }
 .column2 {

@@ -7,23 +7,26 @@ body{
 	float: left;
 	width: 13%;
 	padding: 5px;
-	position: absolute;
+	position: fixed;
 	outline-style: solid;
-    outline-width: 12px;
-    outline-color: rgba(128, 255, 0, 0.418);
-    width: 150px;
+	outline-width: 12px;
+	outline-color: rgba(128, 255, 0, 0.418);
+	width: 150px;
+	padding-bottom: 590px;
 }
+
 .menu {
 	text-align: center;
 }
 .column2 {
 	float: left;
 	padding: 5px;
-	padding-left: 200px;
+	padding-right: 30px;
+	margin-left: 195px;
 	position: absolute;
 	outline-style: solid;
-    outline-width: 12px;
-    outline-color: rgba(128, 255, 0, 0.418);
+	outline-width: 12px;
+	outline-color: rgba(128, 255, 0, 0.418);
 }
 a {
 	text-decoration: none;
@@ -47,5 +50,6 @@ a {
 .tag {
 	border-style: solid;
 	border-color: chartreuse;
-	width: 10px
+	padding-right: 5px;
+	font-size: 15px;
 }
